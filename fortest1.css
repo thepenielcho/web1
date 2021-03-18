@@ -1,40 +1,95 @@
+/*reset*/
 body{
     margin: 0;
     padding: 0;
 }
-header{
-    background: tomato;
-}
-header img{
 
+/*header*/
+header{
+    background: white;
+    border-bottom: 1px solid gray;
 }
 header nav{
 
 }
-header nav ul{
+.head-left{
+    width: 980px;
+    margin: auto;
+    padding: 20px 0;
+}
+header nav div{
 
+}
+.logo{
+    margin-right: 5px;
+    float: left;
+}
+.logo img{
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+header nav ul{
+    display: flex;
+    margin: 0;
 }
 header nav ul li{
-
+    list-style: none;
+    margin: 10px;
 }
-main{
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+/*.menu{*/
+/*    float: left;*/
+/*}*/
+/*.menu-item{*/
+/*    float: left;*/
+/*    !*margin-right: 10px;*!*/
+/*    padding: 8px 10px;*/
+/*    !*앞이 위아래 뒤가 좌우*!*/
+/*}*/
+/*.clearfix::after{*/
+/*    content: "";*/
+/*    display: block;*/
+/*    clear: both;*/
+/*}*/
 
+/*main*/
+main{
+    display: flex;
 }
 main section{
-
+    width: 70%;
+    background: tomato;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 main section h1{
 
 }
 main section article{
-
+    background: yellowgreen;
+    margin-bottom: 10px;
+    padding: 20px;
 }
 main aside{
-
+    width: 30%;
+    box-sizing: border-box;
+    background: tomato;
+    margin: 10px;
+    padding: 20px;
 }
+
+/*footer*/
 footer{
-
+    background: tomato;
+    margin: 10px;
+    padding: 20px;
 }
-footer a{
-
+footer address{
+    display: block;
 }

@@ -1,0 +1,16 @@
+a{
+    font-weight: bold;
+    width: 100px;
+    line-height: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 6px;
+    display: block;
+    text-align: center;
+    /*글자 가운데 정렬*/
+}
+a:hover{
+    background: orange;
+}
+
+/*a태그를 모양으로 입히려면 꼭 블록 요소로 바꿔줘야 한다!*/
