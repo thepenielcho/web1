@@ -20,6 +20,19 @@ header nav{
 header nav div{
 
 }
+.emblem{
+    font-family: Volte;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-right: 10px;
+    padding-top: 4px;
+    /*padding-bottom: px;*/
+    float: left;
+}
+.emblem:hover{
+    color: gray;
+}
 .logo{
     margin-right: 5px;
     float: left;
@@ -41,6 +54,10 @@ header nav ul li a{
     color: black;
     text-decoration: none;
     display: block;
+    font-size: 20px;
+}
+header nav ul li a:hover{
+    color: gray;
 }
 /*.menu{*/
 /*    float: left;*/
@@ -60,6 +77,8 @@ header nav ul li a{
 /*main*/
 main{
     display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 main section{
     width: 70%;
@@ -87,9 +106,18 @@ main aside{
 /*footer*/
 footer{
     background: tomato;
-    margin: 10px;
-    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 footer address{
     display: block;
+}
+footer address a{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+
+}
+footer address a:hover {
+    text-decoration: underline;
 }
