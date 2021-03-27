@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>PENNY</title>
+<!--mobile metas-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!--IE호환성-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--웹 폰트-->
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="">
+<!--favicon-->
+    <link rel="stylesheet" href="">
+<!--metas-->
+    <meta name="description" content="PENIEL의 온라인 페이지이라능.">
+<!--css-->
+    <link rel="stylesheet" href="styleport.css">
+<!--script-->
+    <script></script>
+</head>
+<body>
+<div class="scroll-width"></div>
+<header class="site-header" role="banner">
+    <!-- logo -->
+    <a class="site-branding pull-left main-logo" href="http://designbase.co.kr"><h1 class="site-logo"></h1></a>
+    <nav class="site-navigation main-navigation" role="navigation">
+        <ul id="primary-menu" class="gnb"><li id="menu-item-1448" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-145 current_page_item menu-item-1448"><a href="http://designbase.co.kr/about/" aria-current="page">소개</a></li>
+            <li id="menu-item-9426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9426"><a href="http://designbase.co.kr/blog/">커리큘 </a>
+                <ul class="sub-menu">
+                    <li id="menu-item-4214" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4214"><a href="http://designbase.co.kr/category/webdesign_basic_course/">파이썬 문법</a></li>
+                    <li id="menu-item-1547" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1547"><a href="http://designbase.co.kr/category/sketch_course/">데이터 분석 </a></li>
+                    <li id="menu-item-3472" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3472"><a href="http://designbase.co.kr/category/adobexd_course/">웹 크롤링 </a></li>
+                    <li id="menu-item-441" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-441"><a href="http://designbase.co.kr/category/photoshop_course/">머신러닝 </a></li>
+                    <li id="menu-item-1487" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1487"><a href="http://designbase.co.kr/category/illustrator_course/">딥러닝 </a></li>
+                    <li id="menu-item-1785" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1785"><a href="http://designbase.co.kr/category/invision_course/">프론트 엔드 </a></li>
+                    <li id="menu-item-9427" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9427"><a href="http://designbase.co.kr/start-principle-course/">백엔드  </a></li>
+                </ul>
+            </li>
+            <li id="menu-item-19538" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19538"><a href="http://designbase.co.kr/category/webcoding_basic_course/">럼하</a></li>
+            <li id="menu-item-22904" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22904"><a href="http://designbase.co.kr/category/room-corner-lecture/">펜서</a></li>
+            <li id="menu-item-1772" class="new-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-1772"><a href="http://designbase.co.kr/designer-bookmark/">햄튜브</a></li>
+            <li id="menu-item-9425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9425"><a href="http://designbase.co.kr/contact/">해</a></li>
+        </ul>		</nav>
+    <div class="menu-btn">
+        <!-- Moblie_nav -->
+        <div class="menu-icon">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+    </div>
+    <div class="search-btn">
+        <div class="search-icon">
+            <span class="search-line main-line"></span>
+            <span class="search-circle"></span>
+            <span class="search-line second-line"></span>
+        </div>
+    </div>
+    <div class="search-container">
+        <div class="search-input-wrap">
+            <div class="container">
+                <form action="http://designbase.co.kr">
+                    <input type="text" name="s" class="search-input" placeholder="검색어를 입력해주세요." value=""><button type="submit" class="input-search-icon"></button>
+                </form>
+                <div class="article-tags">
+                    <span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ec%9b%b9%eb%94%94%ec%9e%90%ec%9d%b8/' title='웹디자인'>웹디자인<span class='tagcount'>20</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ec%9b%b9%ec%bd%94%eb%94%a9/' title='웹코딩'>웹코딩<span class='tagcount'>19</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ec%9b%b9%ec%bd%94%eb%94%a9%ea%b0%95%ec%a2%8c/' title='웹코딩강좌'>웹코딩강좌<span class='tagcount'>17</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ec%8a%a4%ec%bc%80%ec%b9%98/' title='스케치'>스케치<span class='tagcount'>16</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/css/' title='CSS'>CSS<span class='tagcount'>15</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ec%9b%b9%eb%94%94%ec%9e%90%ec%9d%b8%ea%b0%95%ec%a2%8c/' title='웹디자인강좌'>웹디자인강좌<span class='tagcount'>15</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ea%b7%b8%eb%9e%98%ed%94%bd%eb%94%94%ec%9e%90%ec%9d%b8/' title='그래픽디자인'>그래픽디자인<span class='tagcount'>10</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ec%96%b4%eb%8f%84%eb%b9%84xd%ea%b0%95%ec%a2%8c/' title='어도비XD강좌'>어도비XD강좌<span class='tagcount'>9</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/xd/' title='XD'>XD<span class='tagcount'>9</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ed%8f%ac%ed%86%a0%ec%83%b5/' title='포토샵'>포토샵<span class='tagcount'>9</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ed%95%a9%ec%84%b1/' title='합성'>합성<span class='tagcount'>8</span></a></span><span class='tags'><a class='taglink' href='http://designbase.co.kr/tag/%ed%94%84%eb%a1%9c%ed%86%a0%ed%83%80%ec%9d%b4%ed%95%91/' title='프로토타이핑'>프로토타이핑<span class='tagcount'>8</span></a></span>					</div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </div>
+    <div class="menu-container">
+        <nav class="more-navigation">
+            <div class="container">
+                <ul id="primary-menu" class="gnb"><li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-145 current_page_item menu-item-1448"><a href="http://designbase.co.kr/about/" aria-current="page">소개</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9426"><a href="http://designbase.co.kr/blog/">디자인 강좌</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4214"><a href="http://designbase.co.kr/category/webdesign_basic_course/">웹 디자인 입문</a></li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1547"><a href="http://designbase.co.kr/category/sketch_course/">스케치</a></li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3472"><a href="http://designbase.co.kr/category/adobexd_course/">어도비XD</a></li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-441"><a href="http://designbase.co.kr/category/photoshop_course/">포토샵</a></li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1487"><a href="http://designbase.co.kr/category/illustrator_course/">일러스트레이터</a></li>
+                            <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1785"><a href="http://designbase.co.kr/category/invision_course/">인비전</a></li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-post menu-item-9427"><a href="http://designbase.co.kr/start-principle-course/">프린서플 강좌 오픈</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-19538"><a href="http://designbase.co.kr/category/webcoding_basic_course/">웹코딩 강좌</a></li>
+                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22904"><a href="http://designbase.co.kr/category/room-corner-lecture/">방구석클래스</a></li>
+                    <li class="new-menu menu-item menu-item-type-post_type menu-item-object-page menu-item-1772"><a href="http://designbase.co.kr/designer-bookmark/">북마크</a></li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9425"><a href="http://designbase.co.kr/contact/">문의하기</a></li>
+                </ul>
+                <div class="social-list">
+                    <a class="icon-youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/designbase"></a>
+                    <a class="icon-pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.co.kr/designbasekorea/"></a>
+                    <a class="icon-instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/designbasekorea/"></a>
+                    <a class="icon-naverblog" target="_blank" rel="noopener noreferrer" href="https://blog.naver.com/designbasekorea"></a>
+                    <!-- <a class="icon-twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/designbasekorea"></a>
+                    <a class="icon-kakaotalk" target="_blank" rel="noopener noreferrer" href="https://open.kakao.com/o/gmwngljb"></a> -->
+                </div>
+            </div>
+        </nav>
+        <div class="overlay"></div>
+    </div>
+    <div class="clearfix"></div>
+</header><!-- header end -->
+<main class="about-page loading">
+    <section class="page-header middle-h">
+        <div class="container">
+            <div class="page-title-wrap">
+                <h1 class="page-title en s-e">Hello,<br>Designbase</h1>
+                <p class="page-desc s-e delay-1">디자인베이스는 디자인 툴부터 기초 지식, 꿀팁 등 디자인에 관해 전반적으로 알려주는 온라인 강좌 채널입니다</p>
+            </div>
+            <figure class="page-header-illust s-e delay-3">
+                <div class="about-illust db-parallax" data-rellax-speed="-1" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-1" data-rellax-percentage="0.5" >
+                    <div id="anim-605f18012a9bc" class="wpbdmv-animation loading align-left renderer-svg" style="max-width: 500px; min-height: 500px;"></div>			</div>
+            </figure>
+        </div>
+    </section>
+    <section class="about-1 s-e delay-4">
+        <div class="container">
+            <div class="about-video-container">
+                <div class="narrow-container">
+                    <div class="iframe-wrap"><iframe src="https://www.youtube.com/embed/ygjtNjkDRS8" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+                </div>
+                <img class="deco-01 db-parallax" data-rellax-speed="-1" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-1" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-01.png.webp" alt="" srcset="">
+                <img class="deco-02 db-parallax" data-rellax-speed="-0.5" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-0.5" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-02.png.webp" alt="" srcset="">
+                <img class="deco-03 db-parallax" data-rellax-speed="-1" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-1" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-03.png.webp" alt="" srcset="">
+                <img class="deco-04 db-parallax" data-rellax-speed="-1.5" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-1.5" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-04.png.webp" alt="" srcset="">
+                <img class="deco-05 db-parallax" data-rellax-speed="-1" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-1" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-05.png.webp" alt="" srcset="">
+                <img class="deco-06 db-parallax" data-rellax-speed="-2" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-2" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-06.png.webp" alt="" srcset="">
+                <img class="deco-07 db-parallax" data-rellax-speed="-1" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-1" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-07.png.webp" alt="" srcset="">
+                <img class="deco-08 db-parallax" data-rellax-speed="-2" data-rellax-xs-speed="-0.4" data-rellax-mobile-speed="-0.4"  data-rellax-desktop-speed="-2" data-rellax-percentage="0.5" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-deco-08.png.webp" alt="" srcset="">
+            </div>
+            <article class="narrow-container">
+                <h2>디자인베이스를 만들게 된 이유</h2>
+                <p>누구에게나 처음이 있듯이 저 역시 처음 툴을 접할 때 어려움을 느꼈습니다. 그 시절을 떠올리며 입문자에게 가장 어려운 것은 무엇일지 고민했는데 이게 아닐까 생각합니다.</p>
+                <blockquote>‘무엇부터 공부해야 하는지 모르는 상태’</blockquote>
+                <p>블로그 또는 커뮤니티에 포스팅 단위로 파편화되어 있어서, 그때그때 검색하는 데 도움이 될 수는 있어도, 기초부터 응용까지 이해를 바탕으로 실력 쌓기에는 도움이 되지 않습니다. 또한, 디자인에 대한 전반적인 이해와 디자이너의 탄탄한 실무 경험을 바탕으로 만들어진 강좌 콘텐츠가 많이 없어 아쉬운 상황이죠. 아주 기초 단계인 포토샵 툴조차도 실무를 기반으로 꼭 필요한 기능과 스킬을 알려줘서 불필요한 기능을 배우는 데 시간 뺏기지 않도록 길잡이가 되자는 것이 이 프로젝트를 시작한 이유입니다.</p>
+                <div class="about-portfolio-wrap">
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-1.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-2.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-3.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-4.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-5.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-6.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-7.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-8.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-9.jpg.webp" />
+                    <img class="portfolio-img" src="http://designbase.co.kr/wp-content/webp-express/webp-images/doc-root/wp-content/themes/designbase/assets/images/about-10.jpg.webp" />
+                </div>
+            </article>
+        </div>
+    </section>
+    <section class="about-2 s-e">
+        <div class="container">
+            <article class="narrow-container">
+                <h2>디자이너가 아니라도 디자인을 배우면</h2>
+                <p>서론이 길었는데 “왜 디자인을 공부해야 하는가”에 대해서는 가볍게 말해볼까 합니다.
+                    요즘은 한 가지로 만 먹고살기 어려운 시대가 됐습니다. 스마트폰과 SNS, 그리고 영상 플랫폼 유튜브가 뜨면서 시대는 변했습니다. 기획자도 영상을 만들고, 마케터도 카드 뉴스를 만들며 개인 쇼핑몰을 운영하며 직접 상세페이지를 디자인하는 시대가 왔으며, 누구나 자신의 노하우를 블로그나 유튜브에 올리는 콘텐츠 크리에이터로 변하고 있습니다.
+                    <br><br>
+                    그야말로, 본인의 능력만큼 성장하는 환경이 왔습니다. 그중에 가장 도움을 줄 수 있는 분야는 바로 디자인이라고 생각합니다. 본인의 장점을 시각적으로 포장할 수 있는 능력을 갖춘다면, 더 많은 기회를 잡을 수 있다고 믿습니다. 제 사이트에 들어와 공부하는 열정적인 여러분에게 조금이나마 도움이 됐으면 하는 바람입니다. ‘디자인’이라는 학문을 기초부터 차근차근 공부해서 여러분을 더 잘 포장할 수 있었으면 좋겠습니다. 그리고, 디자인의 힘을 몸소 아셨으면 좋겠습니다. 최선을 다한다면 절대 후회하지 않을 것입니다.</p>
+            </article>
+        </div>
+    </section>
+    <section class="about-3 s-e">
+        <div class="container">
+            <article>
+                <div class="narrow-container">
+                    <h2>디자인베이스 주요 강좌</h2>
+                    <h3>입문자를 위한 강좌</h3>
+                    <p>디자인베이스에서 다루는 강좌 중 입문자용은 가장 넓은 폭의 직군이 접할 수 있는 디자인 기본 툴로 포토샵, 일러스트레이터 강좌입니다. 기획자, 웹 퍼블리셔, 포토그래퍼, 블로거, 유튜버 등 누구나 접할 수 있도록 기초 강좌부터 있습니다. 그 외에 프리미어 프로, 에프터 이벡트 강좌도 준비 중 입니다.</p>
+                    <br>
+                    <h3>UI/UX 디자이너를 위한 강좌</h3>
+                    <p>제가 현재 실무에서 UI 디자이너로 활동중인데, 이쪽 분야로 관심 있는 분들을 위한 강좌를 운영중입니다. UI/UX 디자이너를 위한 툴 강좌로는 UI 전용 툴인 스케치와 어도비 XD, 그리고 프로토 타입 툴인 인비전과 프린서플, 프로토파이를 다룹니다. 툴 강좌에서만 그치는 것이 아니라 웹 디자인 입문 강좌와 웹 디자이너를 위한 웹 코딩 강좌를 올리고 있으며 UI 디자인 입문 강좌도 준비 중 입니다.</p>
+                    <p>그 외에도 웹 플로우나 윅스, 제플린 사용법 등 알아두면 좋은 다양한 정보와 디자인에서 중요하게 생각하는 부분들을 영상으로 올리고 있습니다.</p>
+                </div>
+                <div class="course-container">
+                    <div class="row">
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/start-principle-course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-principle.svg">
+                                    <div class="tool-name">프린서플</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/sketch_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-sketch.svg">
+                                    <div class="tool-name">스케치</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/photoshop_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-photoshop.svg">
+                                    <div class="tool-name">포토샵</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/illustrator_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-illustrator.svg">
+                                    <div class="tool-name">일러스트레이터</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/adobexd_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-adobexd.svg">
+                                    <div class="tool-name">어도비 XD</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/invision_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-invision.svg">
+                                    <div class="tool-name">인비전</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/webdesign_basic_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-web.svg">
+                                    <div class="tool-name">웹 디자인</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <a href="http://designbase.co.kr/category/webcoding_basic_course/">
+                                <div class="course-list">
+                                    <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-coding.svg">
+                                    <div class="tool-name">웹 코딩</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="db-col-2">
+                            <div class="course-list course-list-prepare">
+                                <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-uidesign.svg">
+                                <div class="tool-name">UI 디자인</div>
+                                <div class="badge-preparing">준비중</div>
+                            </div>
+                        </div>
+                        <div class="db-col-2">
+                            <div class="course-list course-list-prepare">
+                                <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-protopie.svg">
+                                <div class="tool-name">프로토파이</div>
+                                <div class="badge-preparing">준비중</div>
+                            </div>
+                        </div>
+                        <div class="db-col-2">
+                            <div class="course-list course-list-prepare">
+                                <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-aftereffect.svg">
+                                <div class="tool-name">에프터이펙트</div>
+                                <div class="badge-preparing">준비중</div>
+                            </div>
+                        </div>
+                        <div class="db-col-2">
+                            <div class="course-list course-list-prepare">
+                                <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-premiere.svg">
+                                <div class="tool-name">프리미어</div>
+                                <div class="badge-preparing">준비중</div>
+                            </div>
+                        </div>
+                        <!-- <div class="db-col-2">
+                        <div class="course-list course-list-prepare">
+                        <img class="tool-icon" src="http://designbase.co.kr/wp-content/themes/designbase/assets/svg/icon-lottiejs.svg">
+                        <div class="tool-name">Lottie.js</div>
+                        <div class="badge-preparing">준비중</div>
+                        </div>
+                        </div> -->
+                    </div>
+                    <!-- Slider main container -->
+                </div>					<div class="narrow-container">
+                <p>그저 디자인을 사랑하는 개인이 운영하는 온라인 교육 채널입니다. 디자이너만을 위한 교육도 아닙니다. 여러분이 어떤 이유로 이 채널을 접하셨던지, 여러분에게 조금이라도 도움 됐으면 하는 바람으로 오늘도 좋은 교육 콘텐츠를 만들기 위해 고민합니다.
+                    저 역시도 이것을 운영하는 것 자체가 또 하나의 도전이기 때문에 좋은 강좌를 꾸준히 올릴 수 있도록 많은 관심 부탁드립니다. 혹시라도 궁금하신 점이나 문의할 내용있다면 언제든지 하단 이메일로 편하게 연락주세요.</p>
+                <blockquote>“중요한 것은 목표를 이루는 것이 아니라,<br>그 과정에서 무엇을 배우며 얼마나 성장했느냐 이다.”<div class="blockquote-author">- 엔드류 매튜스 -</div></blockquote>
+                <!-- Author description -->
+                <div class="author-description">
+                    <!-- Avatar -->
+                    <div class="avatar">
+                        <div class="author-profile"></div>
+                        <!-- <img src="http://2.gravatar.com/avatar/?s=75&d=mm&r=g" /> -->
+                    </div>
+                    <div class="description">
+                        <h6>디자인베이스</h6>
+                        <!-- <h6></h6> -->
+                        <!-- Short Description -->
+                        <p>누구나 쉽게 배우는 디자인 클래스</p>
+                        <!-- <p>디자인베이스는 디자인 툴부터 기초 지식, 꿀팁 등 디자인에 관해 <br class="pc-only">전반적으로 알려주는 온라인 강좌 채널입니다</p> -->
+                        <div class="social-list">
+                            <a class="icon-youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/designbase"></a>
+                            <a class="icon-pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.co.kr/designbasekorea/"></a>
+                            <a class="icon-instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/designbasekorea/"></a>
+                            <a class="icon-naverblog" target="_blank" rel="noopener noreferrer" href="https://blog.naver.com/designbasekorea"></a>
+                            <!-- <a class="icon-twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/designbasekorea"></a>
+                            <a class="icon-kakaotalk" target="_blank" rel="noopener noreferrer" href="https://open.kakao.com/o/gmwngljb"></a> -->
+                        </div>
+                        <a class="text-button" href="http://designbase.co.kr/contact">문의하기</a>
+                    </div>
+                </div>
+            </div>
+            </article>
+        </div>
+    </section>
+    <section class="testimonials s-e">
+        <div class="container">
+            <div class="category-title-wrap">
+                <div class="tool-icon notice"></div>
+                <h3 class="category-title en">
+                    <a href="http://designbase.co.kr/testimonials">
+                        생생 후기
+                    </a>
+                </h3>
+                <div class="category-desc">디자인베이스와 함께한 분들이 <br class="mo-only">남겨주신 후기입니다</div>
+            </div>
+            <div class="swiper-container testimonials-slider">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-04/" data-type="blog" data-id="21841" data-token="">
+                            <article id="post-21841" class="type-testimonial swiper-slide post-21841 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">업종 전환을 위해 퇴사 후 학원도 다녔지만, 포트폴리오 위주라 실질적인 업무 활용법이나 유의점 등에 대한 가르침이 미비했습니다. 올려주신 영상 덕분에 희망 업종 관련된 프로그램 사용법이나 유의법, 어렵게 느껴졌던 코딩 등에&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-01.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">김소*</h5>
+                                <p class="user-info">편집디자이너 7년차 및 취준생</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-07/" data-type="blog" data-id="21847" data-token="">
+                            <article id="post-21847" class="type-testimonial swiper-slide post-21847 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">사수에게 배우지 못했던 기본적인 요소들을 체계있게 배울 수 있었던 강의였습니다.</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-01.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">이그*</h5>
+                                <p class="user-info">UI 디자이너 10년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-09/" data-type="blog" data-id="21851" data-token="">
+                            <article id="post-21851" class="type-testimonial swiper-slide post-21851 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">사수가 없어도 디자인베이스님 영상이면 해결할 수 있었습니다. 코딩을 배울까 고민했을 때도 디자인베이스님의 모습을 보고 너무 멋있고 존경했습니다. 어쩌면 이렇게 성장할 수 있었던 것은....디자인 베이스님이 열심히 영상을 올려주시고 단톡에서도 모르는 부분을&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-01.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">은지*</h5>
+                                <p class="user-info">웹디자이너 4년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-12/" data-type="blog" data-id="21868" data-token="">
+                            <article id="post-21868" class="type-testimonial swiper-slide post-21868 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">디자인베이스님 유튜브를 통해 실무에 바로 쓸 수 있는 좋은 정보들을 많이 얻고 동기부여도 되었어요! 온라인 사수 디자인베이스님 감사합니다 :)</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-02.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">제이*</h5>
+                                <p class="user-info">UI 디자이너 2년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-08/" data-type="blog" data-id="21849" data-token="">
+                            <article id="post-21849" class="type-testimonial swiper-slide post-21849 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">막연하게 당연시 해오던 작업에 대한 기본적인 기초를 왜 이렇게 하는지, 어떤 식으로 제작되는지 배웠습니다. 아무래도 중소기업을 다니다 보니 위 사수들도 잘 알려주지 못했던 부분들마저도 알기 쉬웠어요. 앞으로 제가 나아가야 할&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-04.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">꿀호*</h5>
+                                <p class="user-info">웹디자이너 4년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-10/" data-type="blog" data-id="21853" data-token="">
+                            <article id="post-21853" class="type-testimonial swiper-slide post-21853 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">UX/UI를 처음 배우는 신입입니다. 프로그램을 배우고 싶어 여러 튜토리얼을 찾아보았지만 어렵게만 느껴졌던 스케치와 어도비 XD를, 디자인베이스 강좌를 시청하며 업무 시 편하게 사용할 수 있을 정도가 되었습니다. 깔끔하고 이해하기 쉽게 단계별로&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-03.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">이진*</h5>
+                                <p class="user-info">UI디자이너 신입</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-05/" data-type="blog" data-id="21843" data-token="">
+                            <article id="post-21843" class="type-testimonial swiper-slide post-21843 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">비전공자가 디베님의 영상을 참고하여 공부했을 때, 사소한 부분에 대해 몰랐던 것들이 의외로 많았고, 기초를 잘 가르쳐주셔서 많은 도움이 됐어요. 다양한 프로그램들 강의로도 알려주심으로써 아예 안 썼던 툴을 실무에서 업무에 능숙하게&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-06.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">박승*</h5>
+                                <p class="user-info">비전공자</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-06/" data-type="blog" data-id="21845" data-token="">
+                            <article id="post-21845" class="type-testimonial swiper-slide post-21845 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">궁금증의 근원과 핵심을 알게되어 좋습니다. 실질적으로 정말 도움이 많이 되며, 수학이라고 치면 공식을 외우기 보다는 원리를 알게되는 느낌이랄까요!</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-03.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">김유*</h5>
+                                <p class="user-info">취업 준비생</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-01/" data-type="blog" data-id="21822" data-token="">
+                            <article id="post-21822" class="type-testimonial swiper-slide post-21822 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">디자인 툴의 해외강좌를 보다 도저히 해석이 안 되어 찾다가 처음 접하게 됐어요. 더 이상 해외강좌는 찾아보지 않습니다. 더 이상 여기저기 검색 후 찾아 들어갈 필요 없이 한 번에 해결이 가능하니까요!&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-05.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">안진*</h5>
+                                <p class="user-info">UI 디자이너 1년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-11/" data-type="blog" data-id="21856" data-token="">
+                            <article id="post-21856" class="type-testimonial swiper-slide post-21856 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">편집디자이너였다가 이직을 하면서 UIUX디자인으로 가게 됐어요. 디베님 XD, 스케치 강좌를 보면서 기본기에 대해 쉽고 빠르게 습득하였고 덕분에 입사 이후 새로운 업무환경에 빠르게 적응할 수 있었습니다~! 실무를 하다 모르는 게 있으면&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-05.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">김인*</h5>
+                                <p class="user-info">UXUI 디자이너 4년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-03/" data-type="blog" data-id="21839" data-token="">
+                            <article id="post-21839" class="type-testimonial swiper-slide post-21839 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">어렵게만 느껴졌던 코딩이라는 벽을 뛰어넘게 해준 강의였습니다! 예제를 통한 자세한 설명 덕분에 스스로 따라 하며 구현해 볼 수 있어서 매우 설레고 뿌듯했습니다&#x1f60a; 시작이 반이라고 하는데 저는 이미 반 이상 온&hellip;</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-03.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">송영*</h5>
+                                <p class="user-info">운영 디자이너 5년차</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- 리스트 타입 -->
+                        <a class="hover-effect" href="http://designbase.co.kr/testimonials/review-02/" data-type="blog" data-id="21835" data-token="">
+                            <article id="post-21835" class="type-testimonial swiper-slide post-21835 testimonials type-testimonials status-publish has-post-thumbnail hentry">
+                                <p class="thumb-content">디자인에 있어 가장 중요한 건 비주얼 라이징이 아니라 '본질'에 충실한 거로 생각해요. 디자인 툴만 다루는 기술자가 아니라 기획력을 갖춘 디자이너가 되고 싶다면 디자인 베이스님의 강의를 추천합니다.</p>		<div class="user-profile-wrap">
+                                <figure class="user-profile" style="background: url(http://designbase.co.kr/wp-content/uploads/2020/09/illust-profile-02.webp) center; background-size: cover;">
+                                </figure>
+                                <h5 class="user-name">김태*</h5>
+                                <p class="user-info">디자인과 학생</p>
+                            </div>
+                                <div class="double-quotes"></div>
+                            </article><!-- #post-## -->
+                        </a>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <section class="designbase-layout-recent">
+        <div class="container s-e">
+            <div class="category-title-wrap">
+                <div class="tool-icon icon-new"></div>
+                <h3 class="category-title">최신 강좌</h3>
+                <div class="category-desc">따끈한 신규 강좌를 만나보세요</div>
+            </div>
+            <div class="row">
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-35690"  class="type-card post-35690 post type-post status-publish format-standard has-post-thumbnail hentry category-webcoding_basic_course tag-background tag-css tag-356 tag-308 tag-309" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/webcoding-16/" data-type="blog" data-id="35690" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-9x5.webp" class="lazy" alt="#16 배경이미지 넣는 방법 &#8211; 웹 코딩 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/03/webcoding-16-overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/webcoding-16/" rel="bookmark">#16 배경이미지 넣는 방법 &#8211; 웹 코딩 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/webcoding_basic_course/" rel="category tag">웹 코딩 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-35688"  class="type-card post-35688 post type-post status-publish format-standard has-post-thumbnail hentry category-illustrator-basic tag-353 tag-352 tag-233 tag-349" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/illustrator-3-2/" data-type="blog" data-id="35688" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-9x5.webp" class="lazy" alt="#3 새 도큐먼트 만들기 &#038; Bleed 이해하기 &#8211; 일러스트레이터 기초 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_03_overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/illustrator-3-2/" rel="bookmark">#3 새 도큐먼트 만들기 &#038; Bleed 이해하기 &#8211; 일러스트레이터 기초 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/illustrator_course/illustrator-basic/" rel="category tag">일러스트레이터 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-35683"  class="type-card post-35683 post type-post status-publish format-standard has-post-thumbnail hentry category-illustrator-basic tag-233 tag-349 tag-350 tag-351" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/illustrator-basic-2/" data-type="blog" data-id="35683" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-9x5.webp" class="lazy" alt="#2 작업 환경 세팅하기 &#8211; 일러스트레이터 기초 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_02_overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/illustrator-basic-2/" rel="bookmark">#2 작업 환경 세팅하기 &#8211; 일러스트레이터 기초 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/illustrator_course/illustrator-basic/" rel="category tag">일러스트레이터 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-35677"  class="type-card post-35677 post type-post status-publish format-standard has-post-thumbnail hentry category-illustrator-basic tag-80 tag-233 tag-349" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/illustrator-basic-1/" data-type="blog" data-id="35677" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-9x5.webp" class="lazy" alt="#1 일러스트레이터 강좌 소개 &#038; 인터페이스 파악하기 &#8211; 일러스트레이터 기초 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/03/illustrator_basic_01_overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/illustrator-basic-1/" rel="bookmark">#1 일러스트레이터 강좌 소개 &#038; 인터페이스 파악하기 &#8211; 일러스트레이터 기초 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/illustrator_course/illustrator-basic/" rel="category tag">일러스트레이터 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-34622"  class="type-card post-34622 post type-post status-publish format-standard has-post-thumbnail hentry category-webcoding_basic_course tag-css tag-346 tag-347 tag-308 tag-309" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/webcoding-15/" data-type="blog" data-id="34622" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-9x5.webp" class="lazy" alt="#15 반응형을 위한 css 단위 이해하기 %, em, rem, vw, vh &#8211; 웹 코딩 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/02/webcoding-15-overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/webcoding-15/" rel="bookmark">#15 반응형을 위한 css 단위 이해하기 %, em, rem, vw, vh &#8211; 웹 코딩 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/webcoding_basic_course/" rel="category tag">웹 코딩 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-30559"  class="type-card post-30559 post type-post status-publish format-standard has-post-thumbnail hentry category-webcoding_basic_course tag-css tag-float tag-308 tag-309" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/webcoding-14/" data-type="blog" data-id="30559" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-9x5.webp" class="lazy" alt="#14 CSS Float 사용법 &#8211; 웹 코딩 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/01/webcoding-14-overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/webcoding-14/" rel="bookmark">#14 CSS Float 사용법 &#8211; 웹 코딩 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/webcoding_basic_course/" rel="category tag">웹 코딩 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-30558"  class="type-card post-30558 post type-post status-publish format-standard has-post-thumbnail hentry category-webdesign_basic_course tag-344 tag-174 tag-278 tag-248" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/webdesign-14/" data-type="blog" data-id="30558" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-9x5.webp" class="lazy" alt="#14 레이어와 에셋 정리하는 법 (Feat. Zeplin) &#8211; 웹디자인 입문 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2021/01/webdesign_14_overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/webdesign-14/" rel="bookmark">#14 레이어와 에셋 정리하는 법 (Feat. Zeplin) &#8211; 웹디자인 입문 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/webdesign_basic_course/" rel="category tag">웹 디자인 입문</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+                <div class="db-col-3">
+                    <!-- 썸네일 뷰 -->
+                    <article id="post-27731"  class="type-card post-27731 post type-post status-publish format-standard has-post-thumbnail hentry category-adobexd_course tag-xd tag-342 tag-343" >
+                        <div class="thumb-img">
+                            <a class="hover-effect" href="http://designbase.co.kr/adobexd-9/" data-type="blog" data-id="27731" data-token="">
+                                <figure class="thumbnail">
+                                    <div class="tool-icon"></div>
+                                    <!-- 검색페이지 -->
+                                    <img width="282" height="158" src="http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-9x5.webp" class="lazy" alt="#9 디자인 작업 전 꼭 알아야 할 기능 Stack, Padding, Scroll  &#8211; 어도비 XD 강좌" loading="lazy" data-src="http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-282x158.webp" data-srcset="http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-282x158.webp 282w,  http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-382x215.webp 382w,  http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-730x411.webp 730w,  http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-768x432.webp 768w,  http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-1536x864.webp 1536w,  http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-9x5.webp 9w,  http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview.webp 1920w" srcset="http://designbase.co.kr/wp-content/uploads/2020/12/xd_09_overview-9x5.webp" />					</figure>
+                            </a>
+                        </div>
+                        <div class="thumb-info-wrap">
+                            <h1 class="thumb-title"><a href="http://designbase.co.kr/adobexd-9/" rel="bookmark">#9 디자인 작업 전 꼭 알아야 할 기능 Stack, Padding, Scroll  &#8211; 어도비 XD 강좌</a></h1>		<div class="thumb-category"><a href="http://designbase.co.kr/category/adobexd_course/" rel="category tag">어도비 XD</a></div>
+                        </div>
+                    </article><!-- #post-## -->                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="update-info">
+    <div class="container">
+        <h5>혹시 사이트가 이상하게 나오시나요?</h5>
+        <p>브라우저 설정에서 캐시를 삭제해주시고, <br class="mo-only">최신 브라우저 사용을 권장 드립니다.</p>
+    </div>
+</div>
+<footer class="site-footer" role="contentinfo">
+    <section class="dark-bg">
+        <div class="container">
+            <div class="row">
+                <div class="db-col-9">
+                    <div class="footer-category">
+                        <h2>강좌 바로가기</h2>
+                        <a href="http://designbase.co.kr/category/webdesign_basic_course">웹디자인 입문 강좌</a>
+                        <a href="http://designbase.co.kr/category/photoshop_course">포토샵 강좌</a>
+                        <a href="http://designbase.co.kr/category/illustrator_course">일러스트레이터 강좌</a>
+                        <a href="http://designbase.co.kr/category/sketch_course">스케치 강좌</a>
+                        <a href="http://designbase.co.kr/category/adobexd_course">어도비 XD 강좌</a>
+                        <a href="http://designbase.co.kr/category/invision_course">인비전 강좌</a>
+                        <a href="http://designbase.co.kr/start-principle-course">프린서플 강좌</a>
+                    </div>
+                    <div class="footer-category">
+                        <h2>디자인베이스</h2>
+                        <a href="http://designbase.co.kr/about">소개</a>
+                        <a href="http://designbase.co.kr/contact">문의하기</a>
+                        <a href="http://designbase.co.kr/category/notice">공지사항</a>
+                        <a href="http://designbase.co.kr/policy">개인정보보호정책</a>
+                        <!-- <a href="http://designbase.co.kr/contact">문의하기</a> -->
+                    </div>
+                    <div class="footer-category">
+                        <h2>페이지 바로가기</h2>
+                        <a href="http://designbase.co.kr/events">밋업</a>
+                        <a href="http://designbase.co.kr/designer-bookmark">디자이너 북마크</a>
+                        <a href="http://designbase.co.kr/category/blog">블로그</a>
+                    </div>
+                </div>
+                <div class="footer-designbase-info db-col-3">
+                    <div class="icon-white">
+                        <div class="social-list">
+                            <a class="icon-youtube" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/c/designbase"></a>
+                            <a class="icon-pinterest" target="_blank" rel="noopener noreferrer" href="https://www.pinterest.co.kr/designbasekorea/"></a>
+                            <a class="icon-instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/designbasekorea/"></a>
+                            <a class="icon-naverblog" target="_blank" rel="noopener noreferrer" href="https://blog.naver.com/designbasekorea"></a>
+                            <!-- <a class="icon-twitter" target="_blank" rel="noopener noreferrer" href="https://twitter.com/designbasekorea"></a>
+                            <a class="icon-kakaotalk" target="_blank" rel="noopener noreferrer" href="https://open.kakao.com/o/gmwngljb"></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">© 2020 Design Base. All rights reserved.</p>
+            <h1 class="footer-logo"><strong class="screen-reader-text">designbase logo</strong></h1>
+        </div>
+    </section>
+</footer>
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90310322-4"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-90310322-4');
+</script>
+<!-- Google Adsence -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-6071048881638984"
+    });
+</script>
+<!-- Instagram Feed JS -->
+<script type="text/javascript">
+    var sbiajaxurl = "http://designbase.co.kr/wp-admin/admin-ajax.php";
+</script>
+<script type='text/javascript' id='tptn_tracker-js-extra'>
+    /* <![CDATA[ */
+    var ajax_tptn_tracker = {"ajax_url":"http:\/\/designbase.co.kr\/","top_ten_id":"145","top_ten_blog_id":"1","activate_counter":"11","top_ten_debug":"0","tptn_rnd":"403540576"};
+    /* ]]> */
+</script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-content/plugins/top-10/includes/js/top-10-tracker.min.js?ver=1.0' id='tptn_tracker-js'></script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-content/themes/designbase/assets/js/skip-link-focus-fix.min.js?ver=5.7' id='designbase-skip-link-focus-fix-js'></script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-content/themes/designbase/assets/js/modernizr.js?ver=5.7' id='designbase-modernizr-js'></script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-includes/js/wp-embed.min.js?ver=5.7' id='wp-embed-js'></script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-content/plugins/wp-bodymovin/assets/js/lottie.min.js?ver=5.5.3' id='bodymovin-js'></script>
+<script type='text/javascript' id='wp-bodymovin-js-extra'>
+    /* <![CDATA[ */
+    var wpbodymovin = {"animations":[{"id":19936,"container_id":"anim-605f18012a9bc","autoplay_viewport":true,"autostop_viewport":true,"loop":true,"width":"500px","height":"500px","lazyload":true,"autoplay_onload":true,"renderer":"svg"}],"ajaxurl":"http:\/\/designbase.co.kr\/wp-admin\/admin-ajax.php"};
+    /* ]]> */
+</script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-content/plugins/wp-bodymovin/assets/js/wpbodymovin.min.js?ver=2.1.0' id='wp-bodymovin-js'></script>
+<script type='text/javascript' defer src='http://designbase.co.kr/wp-content/plugins/wp-bodymovin/assets/js/isonscreen.min.js?ver=0.0.1' id='jquery.isonscreen-js'></script>
+</body>
+</html>
