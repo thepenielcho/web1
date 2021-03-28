@@ -24,13 +24,17 @@ header {
 
 .logo{
     font-family: Futura;
-    font-size: 35px;
-    color: #1e1f26;
     font-style: italic;
     font-weight: bold;
+}
+
+#header_logo{
+    font-size: 35px;
+    color: #1e1f26;
     padding: 15px;
     margin-left: 80px;
 }
+
 
 nav {
     margin-left: auto;
@@ -71,3 +75,120 @@ nav {
     width: 100%;
     height: 100%;
 }
+
+
+/*body*/
+
+/*main{*/
+/*    display: flex;*/
+/*}*/
+/*section{*/
+/*    height: 1100px;*/
+/*    background: whitesmoke;*/
+/*    margin: 10px;*/
+/*    padding: 10px;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*section h1{*/
+
+/*}*/
+/*article{*/
+/*    background: yellowgreen;*/
+/*    margin-bottom: 10px;*/
+/*    padding: 10px;*/
+/*}*/
+/*article h2{*/
+
+/*}*/
+/*article p {*/
+
+/*}*/
+
+
+/*footer*/
+
+.site-footer{
+    display: flex;
+}
+
+.dark_foot{
+    background: black;
+    width: 100%;
+    height: 350px;
+}
+
+.container{
+    display: flex;
+    width: 1100px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#left-footer-cat{
+    width: 150px;
+    height: 250px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+#right-footer-cat{
+    width: 150px;
+    height: 250px;
+    margin-right: 60px;
+    padding: 20px;
+}
+
+.footer-cat-head{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+footer section div div a{
+    display: block;
+    margin-bottom: 10px;
+    color: lightgray;
+    font-size: 18px;
+}
+
+footer section div div a:hover{
+    color: gray;
+}
+
+.footer-copy{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 287px;
+    padding-left: 20px;
+}
+
+.copyright{
+    color: darkgray;
+    margin-right: auto;
+    font-size: 12px;
+    font-family: .AppleSystemUIFont;
+    font-weight: normal;
+}
+
+.footer_logo_cont{
+    margin-left: auto;
+}
+
+#footer_logo{
+    font-size: 30px;
+    color: darkgray;
+    padding: 15px;
+    float: right;
+    margin-top: 250px;
+}
+
+/*.site-footer .widget{margin-bottom:1.5rem}.site-footer p{text-align:center}.banner-area{height:280px}*/
+/*footer.site-footer{border-top:1px solid #333}.update-info{text-align:center}.update-info h5{margin-bottom:4px}.footer-logo{display:none}.footer-designbase-info{width:100%;text-align:center}.footer-designbase-info p{font-size:14px;text-align:center}.email-send-btn{width:100%;text-align:center;border-radius:12px;-webkit-border-radius:12px;-moz-border-radius:12px;-ms-border-radius:12px}.footer-category{display:none}footer.site-footer .social-list{margin:auto;margin-bottom:0;text-align:center}*/
+/*footer.site-footer{border-top:1px solid #222;padding:20px 0;position:relative;background-color:#111}footer.site-footer .row{margin-bottom:30px}footer.site-footer .social-list{margin-bottom:20px}footer.site-footer .social-list a{position:relative;top:3px}footer.site-footer .social-list a:last-child{margin:0}footer.site-footer .social-list a:hover{opacity:0.7}footer.site-footer .social-list::after{content:'';clear:both}footer.site-footer .button{margin-top:20px;margin-bottom:20px}footer.site-footer h2{height:20px;font-size:14px;margin-bottom:20px;opacity:0.7;color:#fff}footer.site-footer p{color:#eee}.footer-designbase-info{position:relative;text-align:right}.footer-designbase-info h3{color:#fff;font-size:1.25rem;margin-bottom:4px}.footer-designbase-info p{line-height:1.5}.footer-info{position:relative}.footer-category{float:left;width:32%;margin-bottom:20px}.footer-category strong{color:#fff;opacity:.6;font-size:16px}.footer-category a{display:block;color:#fff;font-size:16px;margin-bottom:10px;-webkit-transition:0.3s;transition:0.3s}.footer-category a:hover{opacity:0.6}.footer-category:nth-child(2),.footer-category:nth-child(3){margin-left:2%}.footer-logo{float:right;width:160px;height:20px;background:url(//designbase.co.kr/wp-content/themes/designbase/assets/svg/logotype_w.svg)*/
