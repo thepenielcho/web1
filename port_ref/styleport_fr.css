@@ -1,10 +1,12 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
-ul, ol, li{list-style-type: none;}
+/*body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}*/
+/*ul, ol, li{list-style-type: none;}*/
+
+a{text-decoration: none;}
+
 h1 {display: inline-block;}
 nav {display: inline-block;}
-a{text-decoration: none;}
 
 html{height:100%}
 
@@ -104,6 +106,19 @@ nav {
 
 /*}*/
 
+.box{
+    width: 100%;
+    height: 600px;
+    background: lightgray;
+}
+
+.box:hover{
+    height: 800px;
+    background: #4169e1;
+    transition: 0.4s;
+}
+
+
 
 /*footer*/
 
@@ -195,6 +210,7 @@ footer section div div a:hover{
     float: right;
     margin-top: 250px;
 }
+
 
 /*.site-footer .widget{margin-bottom:1.5rem}.site-footer p{text-align:center}.banner-area{height:280px}*/
 /*footer.site-footer{border-top:1px solid #333}.update-info{text-align:center}.update-info h5{margin-bottom:4px}.footer-logo{display:none}.footer-designbase-info{width:100%;text-align:center}.footer-designbase-info p{font-size:14px;text-align:center}.email-send-btn{width:100%;text-align:center;border-radius:12px;-webkit-border-radius:12px;-moz-border-radius:12px;-ms-border-radius:12px}.footer-category{display:none}footer.site-footer .social-list{margin:auto;margin-bottom:0;text-align:center}*/
