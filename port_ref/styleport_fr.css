@@ -5,6 +5,12 @@
 
 /*날 잡고 다 수정하자...*/
 
+.clearfix::adter{
+    content: "";
+    clear: both;
+    display: block;
+}
+
 a{text-decoration: none;}
 
 h1 {display: inline-block;}
