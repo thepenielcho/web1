@@ -37,3 +37,34 @@ a{
     color: lightgray;
     font-size: 18px;
 }
+
+a:hover{
+    color: royalblue;
+}
+
+.semi-container div:nth-child(4){
+    width: 100px;
+    height: 30px;
+}
+
+.semi-container div:nth-child(5){
+    width: 100px;
+    height: 30px;
+}
+
+.semi-container div:nth-child(6){
+    width: 100px;
+    height: 30px;
+}
+
+.semi-container div:nth-child(7){
+    align-self: flex-end;
+}
+
+.logo{
+    font-family: Futura;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+    color: darkgray;
+}
