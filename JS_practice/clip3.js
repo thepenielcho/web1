@@ -208,17 +208,100 @@
 //     console.log('안녕하지 않습니다');
 // } while (Math.random()*100<=90);
 
-for (const i of [1,2,3]) {
-    console.log(i);
-}
-// i 는 상수가 아니라 [1,2,3] 어레이의 요소 값에 따라 자꾸 변할텐데 왜 let이 아니라 const를 사용하는건지?
+// for (const i of [1,2,3]) {
+//     console.log(i);
+// }
+// // i 는 상수가 아니라 [1,2,3] 어레이의 요소 값에 따라 자꾸 변할텐데 왜 let이 아니라 const를 사용하는건지?
+//
+// Object.prototype.test = function () {};
+// for (const i in {a:1, b:2, c:3}) {
+//     console.log(i);
+// }
+// // for in 에서 test가 같이 출력된다는 것만 알겟고 나머지는 다 모르겠음...
+// // 더 찾아보기. 강의에서도 제대로 설명 안 해줌.
 
-Object.prototype.test = function () {};
-for (const i in {a:1, b:2, c:3}) {
-    console.log(i);
-}
-// for in 에서 test가 같이 출력된다는 것만 알겟고 나머지는 다 모르겠음...
-// 더 찾아보기. 강의에서도 제대로 설명 안 해줌.
+// function hello1() {
+//     console.log('hello1');
+// }
+//
+// console.log(hello1, typeof hello1);
+//
+// function hello2(name) {
+//     console.log('hello2', name);
+// }
+//
+// function hello3(name) {
+//     return `hello3 ${name}`;
+//     // ''가 아닌 ``사용 이유는 string 자료형 문자열 포매팅 참고
+// }
+//
+// console.log(hello3('Mark'));
 
+// const hello1 = function() {
+//     console.log('hello1');
+// }
+// console.log(hello1, typeof hello1);
 
+// const hello2 = function(name) {
+//     console.log('hello2', name);
+// };
+//
+// console.log(hello2());
 
+//
+// const hello3 = function (name) {
+//     return `hello3 ${name}`
+// }
+
+// function hello1() {
+//     console.log('hello1');
+// }
+//
+// hello1();
+//
+// var hello2 = function () {
+//     console.log('hello2');
+// };
+//
+// const hello3 = function () {
+//     console.log('hello3');
+// };
+
+// const sum = new Function('a', 'b', 'c', 'return a + b + c');
+//
+// console.log(sum(1,2,3));
+
+// global.a = 0;
+//
+// {
+//     const a = 1;
+//     // 바로 위 const는 아래 test 함수의 a 값이 되지 못함.
+//     // new Function 내 요소 값은 global 전역 속성을 이용해서 정의 가능
+//
+//     const test = new Function('return a');
+//
+//     console.log(test());
+// }
+//
+// {
+//     const a = 2;
+//     // 아래 일반 test 함수의 a 값은 같은 범위 내에 정의된 a값을 사용함.
+//
+//     const test = function () {
+//         return a;
+//     }
+//
+//     console.log(test());
+// }
+
+const hello1 = () => {
+    console.log('hello1');
+};
+
+const hello2 = name => {
+    console.log('hello2', name);
+};
+
+const hello3 = (name, age) => {
+    console.log('hello3', name, age);
+};
